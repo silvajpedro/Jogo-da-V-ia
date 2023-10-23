@@ -34,11 +34,11 @@ export const PlayerTitle = styled.button`
   border-radius: 30px;
   background-color: #ff6c36;
   padding-bottom: 5px;
-  font-size: 28px;
+  font-size: 1.5vw;
   letter-spacing: 2.5px;
 `;
 export const PlayerSimbol = styled.span`
-  font-size: 34px;
+  font-size: 1.8vw;
   margin-left: 5px;
   &[value="O"] {
     color: ${(props) => props.$iscoloro || "#fee440"};
@@ -79,7 +79,6 @@ export const Square = styled.div`
   border-top: ${(props) => props.$isbordertop || "none"};
   border-right: ${(props) => props.$isborderright || "none"};
   border-bottom: ${(props) => props.$isborderbottom || "none"};
-  font-size: 150px;
 `;
 export const Button = styled.button`
   display: flex;
@@ -87,7 +86,7 @@ export const Button = styled.button`
   justify-content: center;
   height: 16vh;
   width: 16vw;
-  font-size: 100px;
+  font-size: 5.38vw;
   background-color: transparent;
   border: none;
   &[value="O"] {
@@ -98,7 +97,7 @@ export const Button = styled.button`
   }
 `;
 export const ButtonReload = styled(ChangeColor)`
-  font-size: 20px;
+  font-size: 1.07vw;
   padding-top: 2px;
   width: 18%;
   height: 6.2vh;

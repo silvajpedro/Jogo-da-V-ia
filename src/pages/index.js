@@ -43,15 +43,15 @@ export default function Home() {
 
           <S.LineSquare>
 
-            <S.Square $isborderright="14px solid" $isborderbottom="14px solid">
+            <S.Square $isborderright="0.75vw solid" $isborderbottom="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX}  />
             </S.Square>
 
-            <S.Square $isborderbottom="14px solid" $isborderright="14px solid">
+            <S.Square $isborderbottom="0.75vw solid" $isborderright="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX}   />
             </S.Square>
 
-            <S.Square $isborderbottom="14px solid">
+            <S.Square $isborderbottom="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn}  colorO={colorO} colorX={colorX}  />
             </S.Square>
 
@@ -59,15 +59,15 @@ export default function Home() {
 
           <S.LineSquare>
 
-            <S.Square $isborderbottom="14px solid" $isborderright="14px solid">
+            <S.Square $isborderbottom="0.75vw solid" $isborderright="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX} />
             </S.Square>
 
-            <S.Square $isborderbottom="14px solid" $isborderright="14px solid">
+            <S.Square $isborderbottom="0.75vw solid" $isborderright="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX} />
             </S.Square>
 
-            <S.Square $isborderbottom="14px solid">
+            <S.Square $isborderbottom="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX} />
             </S.Square>
 
@@ -75,11 +75,11 @@ export default function Home() {
 
           <S.LineSquare>
 
-            <S.Square $isborderright="14px solid">
+            <S.Square $isborderright="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX} />
             </S.Square>
 
-            <S.Square $isborderright="14px solid">
+            <S.Square $isborderright="0.75vw solid">
               <Moves setPlayerTurn={setPlayerTurn} colorO={colorO} colorX={colorX} />
             </S.Square>
 
