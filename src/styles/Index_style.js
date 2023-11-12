@@ -5,8 +5,13 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-weight: 900;
 }
-`;
+
+html ::-webkit-scrollbar {
+ display: none;
+}
+`
 
 export const MainBox = styled.main`
   display: flex;
@@ -24,6 +29,19 @@ export const MainFirstBox = styled.div`
   justify-content: space-evenly;
   width: 42%;
 `;
+
+export const WinAlert = styled.p`
+position: absolute;
+top:1vh;
+background-color:#7B68EE;
+width: 38vw;
+text-align: center;
+padding: 20px;
+border-radius: 50px;
+border: 8px solid;
+font-size: 2vw;
+`
+
 export const PlayerTitle = styled.button`
   display: flex;
   justify-content: center;
@@ -97,8 +115,11 @@ export const Button = styled.button`
   }
 `;
 export const ButtonReload = styled(ChangeColor)`
+  position: relative;
+  bottom: 2vh;
   font-size: 1.07vw;
   padding-top: 2px;
   width: 18%;
   height: 6.2vh;
+  background-color: #7B68EE;
 `;
