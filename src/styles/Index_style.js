@@ -15,7 +15,7 @@ export const MainBox = styled.main`
   flex-direction: column;
   height: 102vh;
   background-color: #48cae4;
-  background-image: url(${(props) => props.$win === 9 ? "https://i.gifer.com/origin/1a/1af8d3b487b77085d5288814f151e1de.gif":""});
+  background-image: url(${(props) => props.$win ? "https://i.gifer.com/origin/1a/1af8d3b487b77085d5288814f151e1de.gif":""});
   background-size: 12%;
 
 `;
